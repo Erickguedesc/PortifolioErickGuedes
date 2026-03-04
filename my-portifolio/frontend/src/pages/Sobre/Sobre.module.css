@@ -1,0 +1,155 @@
+.sobrePage {
+  width: 100%;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+
+  background-color: #0f0f0f;  /* fundo escuro */
+  color: #f5f5f5;             /* texto claro */
+}
+
+.container {
+  max-width: 1100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+/* FOTO */
+
+.photoWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.photoCircle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* SEÇÕES */
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.sectionTitle {
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+}
+
+.subtitle {
+  color: gray;
+}
+
+.description {
+  max-width: 700px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* TIMELINE */
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+}
+
+.timelineItem {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.timelineIcon {
+  font-size: 28px;
+}
+
+.card {
+   background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  padding: 20px;
+  border-radius: 12px;
+  flex: 1;
+}
+
+.company {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+/* ESTATÍSTICAS */
+
+.statsBox {
+  background: #f0f0f0;
+  padding: 30px;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.stats div {
+  text-align: center;
+}
+
+/* ACADÊMICO */
+
+.academicBox {
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  padding: 30px;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.progressItem {
+  margin-top: 20px;
+}
+
+.progressBar {
+  height: 8px;
+ background: #2a2a2a;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.progressBar div {
+  height: 100%;
+  background: #22c55e;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 768px) {
+  .stats {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .timelineItem {
+    flex-direction: column;
+  }
+}
