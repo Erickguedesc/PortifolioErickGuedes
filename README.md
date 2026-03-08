@@ -23,19 +23,18 @@ O objetivo do sistema é demonstrar, de forma prática e organizada, a aplicaç�
 📂 **Repositório: https://github.com/LuizFagundesT/Portifolio.git** 
 
 ---
-# 📚 Índice
+## 📚 Índice
 
-- Funcionalidades
-- Tecnologias Utilizadas
-- Arquitetura
-- Estrutura de Pastas
-- Protótipos
-- Autores
-- Agradecimentos
-
+- [Funcionalidades](#-funcionalidades)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Arquitetura](#-arquitetura)
+- [Estrutura de Pastas](#-estrutura-de-pastas)
+- [Protótipos](#-protótipos)
+- [Autores](#-autores)
+  
 ---
 
-# ✨ Funcionalidades Principais
+## ✨ Funcionalidades 
 
 O portfólio possui as seguintes funcionalidades:
 
@@ -59,9 +58,9 @@ Suporte para múltiplos idiomas utilizando **i18next**.
 
 ---
 
-# 🛠 Tecnologias Utilizadas
+## 🛠 Tecnologias Utilizadas
 
-## 💻 Front-end
+### 💻 Front-end
 
 | Tecnologia | Descrição |
 |------------|----------|
@@ -74,7 +73,7 @@ Suporte para múltiplos idiomas utilizando **i18next**.
 
 ---
 
-## 🐍 Back-end
+### 🐍 Back-end
 
 | Tecnologia | Descrição |
 |------------|----------|
@@ -85,7 +84,7 @@ Suporte para múltiplos idiomas utilizando **i18next**.
 
 ---
 
-# 🏗 Arquitetura
+## 🏗 Arquitetura
 
 O projeto foi desenvolvida utilizando uma **arquitetura cliente-servidor**, separando responsabilidades entre **Front-end (interface)** e **Back-end (API)**.  
 
@@ -93,7 +92,7 @@ Essa abordagem permite maior **organização do código, manutenção facilitada
 
 ---
 
-# 📂 Estrutura de Pastas
+## 📂 Estrutura de Pastas
 
 A seguir está a organização principal das pastas e arquivos do projeto, com uma breve descrição de sua finalidade.
 
@@ -133,7 +132,7 @@ A seguir está a organização principal das pastas e arquivos do projeto, com u
 ```
 ---
 
-# 📸 Protótipos do Portfólio
+## 📸 Protótipos 
 Veja também o protótipo no [Figma](https://www.figma.com/design/COAKgSRbRgsxiYsUZUZx69/Wireframe-Portif%C3%B3lio---m%C3%A9dia-fid-?node-id=0-1&t=RorW6WAPHX1OuVqd-1)
 Tela/Sessão | Protótipo
 ------------|-------
@@ -143,7 +142,7 @@ PROJETOS | <img width="360" height="400" alt="PROJETOS" src="https://github.com/
 HABILIDADES | <img width="360" height="2237" alt="HABILIDADES" src="https://github.com/user-attachments/assets/2fc996b6-f319-4a52-855b-58f33774234d" />
 CONTATO | <img width="360" height="600" alt="CONTATO" src="https://github.com/user-attachments/assets/5bd17fc9-0d4e-4563-93e2-9af81b26ecd5" />
 
-## 🎥 Demonstração da Aplicação
+### 🎥 Demonstração da Aplicação
 
 Vídeo demonstrando a navegação pelo portfólio e suas principais funcionalidades.
 
@@ -151,9 +150,10 @@ https://github.com/user-attachments/assets/41464261-8f0c-490d-9499-6ec091138621
 
 ---
 
-# 👥 Autores
+## 👥 Autores
 
 Este projeto foi desenvolvido pelos seguintes integrantes:
+```
 
 | 👤 Nome | 🖼️ Foto | 💻 GitHub |
 |-------|-------|-------|-------|-------|
@@ -162,6 +162,6 @@ Este projeto foi desenvolvido pelos seguintes integrantes:
 | **Erick Guedes** | <div align="center"><img src="https://github.com/Erickguedesc.png" width="80px"></div> | <div align="center"><a href="https://github.com/Erickguedesc"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40px"></a></div> 
 | **Luiz Fagundes** | <div align="center"><img src="https://github.com/LuizFagundesT.png" width="80px"></div> | <div align="center"><a href="https://github.com/LuizFagundesT"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40px"></a></div> 
 
-
+```
 
 
