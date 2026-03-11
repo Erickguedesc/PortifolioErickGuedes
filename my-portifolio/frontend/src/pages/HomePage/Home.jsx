@@ -19,7 +19,7 @@ export default function Home() {
       {/* SPOTIFY FIXO */}
       <SpotifyPlayer
         className={stylesHome.spotifyWrapper}
-        linkMusica="https://open.spotify.com/embed/track/6eT7xZZlB2mwyzJ2sUKG6w"
+        linkMusica="https://open.spotify.com/embed/track/60a0Rd6pjrkxjPbaKzXjfq"
       />
 
       <div className={stylesHome.contentWrapper}>
@@ -37,10 +37,14 @@ export default function Home() {
               <Typewriter
                 options={{
                   strings: [
-                    'Python Developer!',
-                    'React Developer!',
-                    'AI Enthusiast!',
-                    'Mineiro! ☕🧀'
+                    'Software Engineering Student',
+                    'Fã de Forró Boys',
+                    'Coffee Lover ☕',
+                    'Photography Enthusiast 📷',
+  'Front-End Developer',
+  'Animal Lover 🐾',
+  'Travel Lover ✈️',
+                    
                   ],
                   autoStart: true,
                   loop: true,
@@ -53,9 +57,9 @@ export default function Home() {
           <div className={stylesHome.buttonGroup}>
 
             <a
-              className={stylesHome.a}
-              href={userData.curriculo}
-              download="Luiz_Gustavo_Curriculo.pdf"
+             // className={stylesHome.a}
+             // href={userData.curriculo}
+              //download="Luiz_Gustavo_Curriculo.pdf"
             >
               <button className={stylesHome.btnPrimary}>
                 <DownloadIcon fontSize="small" />

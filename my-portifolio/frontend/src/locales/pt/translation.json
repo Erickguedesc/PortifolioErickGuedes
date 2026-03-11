@@ -24,30 +24,26 @@
 
   "about": {
     "mainTitle": "Sobre Mim",
-    "description": "Sou Desenvolvedor Full Stack com foco em Python, criando soluções de ponta a ponta e integrando frontends com APIs de qualidade. Trabalho com atenção à segurança e à qualidade em todas as etapas do desenvolvimento de software: desde o projeto, testes e entrega até a manutenção e o aprimoramento contínuo.Meu objetivo é estudar processos, redesenhá-los quando necessário e propor melhorias por meio de integrações digitais que gerem valor e resultados.",
+"description": "Estou em processo de transição de carreira para a área de tecnologia após atuar por 4 anos como fotógrafo profissional. Essa experiência contribuiu para desenvolver um olhar atento aos detalhes, senso estético e criatividade - habilidades que hoje aplico no desenvolvimento de interfaces e experiências digitais.\n\nVenho construindo minha trajetória na área por meio de projetos pessoais e projetos durante o curso, além de estudos acadêmicos e cursos voltados ao desenvolvimento de software. Tenho maior interesse nas áreas de desenvolvimento front-end, experiência do usuário (UX/UI) e qualidade de software (QA), buscando criar interfaces modernas, funcionais e intuitivas.\n\nTenho afinidade com projetos visuais e criativos, o que também se reflete em meus hobbies, como fotografia e música. Valorizo muito minha família, gosto de uma boa xícara de café e da companhia dos meus gatos. Meu objetivo é continuar evoluindo tecnicamente e construir uma carreira sólida na área de tecnologia.",    
     "expTitle": "Experiência Profissional",
     "acadTitle": "Experiência Acadêmica",
     
 
    
     "experienciaProfissional": [
-      {
-        "id": 1,
-        "empresa": "SILLION",
-        "vaga": "Assistente De Produção - Pleno III",
-        "data_inicio": "Maio/2024",
-        "data_fim": null,
-        "e_atual": true,
-        "descricao": "Atuo na liderança da equipe de produção, sendo responsável pela gestão e priorização de demandas com base nas necessidades dos Centros de Instalação. Além das atividades de coordenação, contribuo tecnicamente com o desenvolvimento e configuração de soluções para câmeras de monitoramento de fadiga integradas com inteligência artificial, voltadas à segurança operacional. Também desenvolvo automações em Python para otimizar processos internos e tarefas recorrentes, aumentando a eficiência e reduzindo atividades manuais no dia a dia.",
-        "icon_empresa": ""
-      }
-    ],
+
+  {
+    "id": 1,
+    "empresa": "Transição de Carreira",
+    "vaga": "Desenvolvedor em formação",
+    "data_inicio": "2023.2",
+    "data_fim": null,
+    "e_atual": true,
+    "descricao": "Atualmente estou em busca da minha primeira oportunidade profissional na área de tecnologia. Após atuar como fotógrafo profissional, iniciei minha transição de carreira para o desenvolvimento de software.",
+    "icon_empresa": ""
+  }
+],
    
-
-
-
-
-
 
 
     "experienciaAcademica": [
@@ -58,29 +54,44 @@
         "tipo": "Extensão",
         "titulo": "Palestra: Imersão à Programação na Escola Estadual Leopoldo de Miranda",
         "data_inicio": "Novembro/2023",
-        "data_fim": "NovembroMar/2023",
+        "data_fim": "Novembro/2023",
         "e_atual": false,
         "descricao": "Fui responsável por planejar e ministrar uma palestra imersiva sobre os fundamentos da programação para alunos do ensino médio, utilizando exemplos práticos e inspiradores. O objetivo foi despertar o interesse pela área de tecnologia.",
-        "habilidades": ["Educação", "Comunicação", "Lógica", "Python","C++", "Replit"],
+        "habilidades": ["Educação", "Comunicação", "Lógica", "JavaScript","C++", "Replit" , "C"],
         "icon": "",
         "link_url": "https://www.linkedin.com/posts/luiz-gustavo-fagundes-teixeira-545225287_no-dia-17-de-novembro-foi-realizado-o-trabalho-activity-7137784781894729728-98bN?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEWfTsUB8ffrenJyLPvJhnTW_53ASnXaAJw", 
         "link_texto": "Confira no Linkedin !"
       },
       {
-        "id": 2,
-        "instituicao": "IFSP - Campus São Paulo",
-        "curso": "Ensino Médio Técnico em Mecatrônica",
-        "tipo": "Projeto Técnico",
-        "titulo": "Desenvolvimento de Robô Autônomo Seguidor de Linha (Carrinho)",
-        "data_inicio": "Ago/2021",
-        "data_fim": "Dez/2022",
-        "e_atual": false,
-        "descricao": "Projetei, construí e programei um robô autônomo que se movia através de sensores de som HC-SR04. O projeto envolvu a integração de sensores, microcontrolador (Arduino), motores CC e desenvolvimento de algoritmos de controle PID em C++. \n LINK: ",
-        "habilidades": ["Robótica", "Arduino", "Eletrônica", "PID"],
-        "icon": "",
-        "link_url": "https://youtu.be/pNt1MKCZjFc?si=gAqO6R7Mp2QFQ2DP", 
-        "link_texto": "Confira o vídeo do projeto!"
-      }
+  "id": 2,
+  "instituicao": "OneBitCode – Tech School",
+  "curso": "Full Stack JavaScript",
+  "tipo": "Formação",
+  "titulo": "Formação em Desenvolvimento Web Full Stack",
+  "data_inicio": "2025",
+  "data_fim": "",
+  "e_atual": true,
+  "descricao": "Formação voltada ao desenvolvimento web com foco em JavaScript Full Stack. Durante o curso estudo tecnologias modernas utilizadas no mercado, além de desenvolver projetos práticos envolvendo front-end, lógica de programação e construção de aplicações web.",
+  "habilidades": ["JavaScript", "HTML", "CSS", "React", "Node.js", "SQL" ],
+  "icon": "",
+  "link_url": "",
+  "link_texto": ""
+},
+{
+  "id": 3,
+  "instituicao": "Sujeito Programador",
+  "curso": "Formação Full Stack Pro",
+  "tipo": "Curso Online",
+  "titulo": "Formação Full Stack - Sujeito Programador",
+  "data_inicio": "2025",
+  "data_fim": "",
+  "e_atual": true,
+  "descricao": "Curso voltado ao desenvolvimento web full stack com foco na criação de aplicações Web e Mobile. Durante a formação estudo tecnologias utilizadas no mercado, desenvolvendo projetos práticos que envolvem front-end, lógica de programação, consumo de APIs e construção de aplicações completas.",
+  "habilidades": ["JavaScript", "HTML", "CSS", "React", "Node.js"],
+  "icon": "",
+  "link_url": "",
+  "link_texto": ""
+}
     ],
 
     "indicatorsTitle": "Indicadores",
@@ -95,12 +106,11 @@
     },
 
     "academicTitle": "Progresso Acadêmico",
-
-    "academic": {
-      "software": "Engenharia de Software - PUC Minas",
-      "js": "JavaScript e TypeScript - Udemy",
-      "python": "Imersão Python - Hashtag"
-    }
+"academic": {
+  "software": "Engenharia de Software - PUC Minas",
+  "cursoOnebitcode": "Onebitcode - Tech School",
+  "cursoSujeitoProgramador": "Sujeito Programador - Full Stack"
+}
   }
 }
 

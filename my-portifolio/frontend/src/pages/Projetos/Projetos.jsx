@@ -5,24 +5,27 @@ import BackgroundCanvas from "../../components/BackgroundCanvas";
 
 
 import SpotifyPlayer from '../../components/SpotifyPlayer';
-
-import portfolioImg from "../../assets/gitPortifolio.gif";
-import readmeGit from "../../assets/readmeGit.gif";
-import emailEstoque from  "../../assets/emailEstoque.gif";
-
+import sensorfix from "../../assets/sensorfix.gif";
+import hotelDescanso from "../../assets/hotelDescanso.png";
+import boraRachar from "../../assets/boraRachar.png";
+import PontoCerto from "../../assets/PontoCerto.gif";
+import porti from "../../assets/porti.png";
 
 const repoImages = {
-  "Portifolio": portfolioImg,
-  "LuizFagundesT" : readmeGit,
-  "alerta-deposito-incorreto": emailEstoque
-  //"NomedoRepositorio" bisnaguinha,
+  SensorFixTI2: sensorfix,
+  HotelDescansoGarantidoAEDS1: hotelDescanso,
+  BoraRacharTI01: boraRachar,
+  PontoCertoTI3: PontoCerto,
+  PortifolioErickGuedes : porti
+
+
+
 };
+
 
 // ✏️ REPOS EM DESTAQUE no carrossel — PARA DESTACAR PROJETOS NO CARROSEL - 
 const featuredRepos = [
-  "Portifolio",
-  "LuizFagundesT",
-  "alerta-deposito-incorreto"
+  
 ];
 
 export default function Projetos() {
@@ -39,7 +42,7 @@ export default function Projetos() {
         const data = await response.json();
 
         const filtrados = data
-          .filter((repo) => !repo.fork && repo.visibility === "public")
+         .filter((repo) => repo.visibility === "public")
           .sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
 
         setRepos(filtrados);

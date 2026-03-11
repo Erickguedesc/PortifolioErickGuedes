@@ -136,13 +136,13 @@
 }
 
 .description {
-  max-width: 700px;
-  text-align: center;
-  line-height: 1.6;
+  max-width: 100%;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.7;
   color: #e0e0e0;
   font-size: 1.2rem;
   margin-top: -10px;
-  /* Removida altura mínima, pois o texto é estático */
 }
 
 /* ========================

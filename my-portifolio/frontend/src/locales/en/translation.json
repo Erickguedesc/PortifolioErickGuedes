@@ -9,7 +9,7 @@
 
   "contato": {
     "contato-title": "Contact",
-    "contato-text": "Liked what you saw? Reach out to me through one of these channels!"
+    "contato-text": "Liked what you saw? Reach out through one of these channels!"
   },
 
   "email": {
@@ -18,12 +18,12 @@
 
   "skills": {
     "title": "Skills",
-    "text": "Take a look at some of my skills and technologies"
+    "text": "Learn a bit more about my skills and technologies"
   },
 
   "about": {
     "mainTitle": "About Me",
-    "description": "I am a Full Stack Developer focused on Python, building end-to-end solutions and integrating frontends with high-quality APIs. I work with strong attention to security and quality across all stages of the software development lifecycle, from design and testing to delivery, maintenance, and continuous improvement. My goal is to analyze processes, redesign them when necessary, and propose improvements through digital integrations that generate value and results.",
+    "description": "I am currently transitioning my career into the technology field after working for four years as a professional photographer. This experience helped me develop a strong attention to detail, aesthetic sense, and creativity — skills that I now apply when building digital interfaces and experiences.\n\nI have been building my path in technology through personal projects, academic projects, and courses focused on software development. My main interests are front-end development, user experience (UX/UI), and software quality (QA), with the goal of creating modern, functional, and intuitive interfaces.\n\nI have a strong affinity for visual and creative projects, which is also reflected in my hobbies such as photography and music. I value my family deeply, enjoy a good cup of coffee, and the company of my cats. My goal is to continue improving technically and build a solid career in the technology field.",
 
     "expTitle": "Professional Experience",
     "acadTitle": "Academic Experience",
@@ -31,12 +31,12 @@
     "experienciaProfissional": [
       {
         "id": 1,
-        "empresa": "SILLION",
-        "vaga": "Production Assistant - Senior III",
-        "data_inicio": "May/2024",
+        "empresa": "Career Transition",
+        "vaga": "Developer in Training",
+        "data_inicio": "2023.2",
         "data_fim": null,
         "e_atual": true,
-        "descricao": "I currently lead the production team, being responsible for managing and prioritizing demands based on the needs of our Installation Centers. In addition to coordination activities, I also contribute technically by developing and configuring solutions for fatigue monitoring cameras integrated with artificial intelligence, aimed at improving operational safety. I also develop Python automations to optimize internal processes and recurring daily tasks, increasing efficiency and reducing manual work.",
+        "descricao": "I am currently seeking my first professional opportunity in the technology field. After working as a professional photographer, I began my career transition into software development.",
         "icon_empresa": ""
       }
     ],
@@ -51,26 +51,41 @@
         "data_inicio": "November/2023",
         "data_fim": "November/2023",
         "e_atual": false,
-        "descricao": "I was responsible for planning and delivering an immersive lecture about the fundamentals of programming to high school students, using practical and inspiring examples. The goal was to spark interest in the technology field.",
-        "habilidades": ["Education", "Communication", "Logic", "Python", "C++", "Replit"],
+        "descricao": "I was responsible for planning and delivering an immersive lecture about the fundamentals of programming for high school students, using practical and inspiring examples. The goal was to spark interest in the technology field.",
+        "habilidades": ["Education", "Communication", "Logic", "JavaScript", "C++", "Replit", "C"],
         "icon": "",
         "link_url": "https://www.linkedin.com/posts/luiz-gustavo-fagundes-teixeira-545225287_no-dia-17-de-novembro-foi-realizado-o-trabalho-activity-7137784781894729728-98bN?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEWfTsUB8ffrenJyLPvJhnTW_53ASnXaAJw",
-        "link_texto": "Check it out on LinkedIn!"
+        "link_texto": "View on LinkedIn!"
       },
       {
         "id": 2,
-        "instituicao": "IFSP - São Paulo Campus",
-        "curso": "Technical High School in Mechatronics",
-        "tipo": "Technical Project",
-        "titulo": "Autonomous Line-Following Robot Development",
-        "data_inicio": "Aug/2021",
-        "data_fim": "Dec/2022",
-        "e_atual": false,
-        "descricao": "I designed, built, and programmed an autonomous robot capable of moving using HC-SR04 sound sensors. The project involved integrating sensors, a microcontroller (Arduino), DC motors, and developing control algorithms using PID in C++.",
-        "habilidades": ["Robotics", "Arduino", "Electronics", "PID"],
+        "instituicao": "OneBitCode – Tech School",
+        "curso": "Full Stack JavaScript",
+        "tipo": "Program",
+        "titulo": "Full Stack Web Development Program",
+        "data_inicio": "2025",
+        "data_fim": "",
+        "e_atual": true,
+        "descricao": "Program focused on web development with an emphasis on Full Stack JavaScript. During the course, I study modern technologies used in the market and develop practical projects involving front-end development, programming logic, and web application building.",
+        "habilidades": ["JavaScript", "HTML", "CSS", "React", "Node.js", "SQL"],
         "icon": "",
-        "link_url": "https://youtu.be/pNt1MKCZjFc?si=gAqO6R7Mp2QFQ2DP",
-        "link_texto": "Watch the project video!"
+        "link_url": "",
+        "link_texto": ""
+      },
+      {
+        "id": 3,
+        "instituicao": "Sujeito Programador",
+        "curso": "Full Stack Pro Program",
+        "tipo": "Online Course",
+        "titulo": "Full Stack Program - Sujeito Programador",
+        "data_inicio": "2025",
+        "data_fim": "",
+        "e_atual": true,
+        "descricao": "Course focused on full stack web development with emphasis on building Web and Mobile applications. During the program I study technologies widely used in the market while developing practical projects involving front-end, programming logic, API consumption, and complete application development.",
+        "habilidades": ["JavaScript", "HTML", "CSS", "React", "Node.js"],
+        "icon": "",
+        "link_url": "",
+        "link_texto": ""
       }
     ],
 
@@ -89,8 +104,8 @@
 
     "academic": {
       "software": "Software Engineering - PUC Minas",
-      "js": "JavaScript and TypeScript - Udemy",
-      "python": "Python Immersion - Hashtag"
+      "cursoOnebitcode": "OneBitCode - Tech School",
+      "cursoSujeitoProgramador": "Sujeito Programador - Full Stack"
     }
   }
 }

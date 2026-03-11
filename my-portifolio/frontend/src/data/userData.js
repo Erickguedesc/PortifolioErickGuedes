@@ -1,32 +1,30 @@
 // import profileImg from "../assets/";
-import curriculo from "../assets/curriculo.pdf";
+//import curriculo from "../assets/curriculo.pdf";
 
 export const userData = {
-  name: "Luiz Gustavo F. Teixeira",
+  name: "Erick Guedes de Carvalho",
   img: "",
   desc: "user.desc",
-  emailName: "luizagustinho032@gmail.com",
-  linkedinName: "luiz-gustavo-fagundes-teixeira",
-  githubName: "LuizFagundesT",
+  emailName: "erickguedes0515@gmail.com",
+  linkedinName: "Erick de Carvalho",
+  githubName: "Erickguedesc",
 
   links: {
-    github: "https://github.com/LuizFagundesT",
-    linkedin: "https://www.linkedin.com/in/luiz-gustavo-fagundes-teixeira-545225287/",
-    email: "luizagustinho032@gmail.com"
+    github: "https://github.com/Erickguedesc",
+    linkedin: "https://www.linkedin.com/in/erick-de-carvalho-658148258/",
+    email: "erickguedes0515@gmail.com"
   },
 
-  telefone: "+5531984619823",
-  curriculo,
+  telefone: "+5589981050128",
+  // curriculo,
 
   caracteristicas: [
     "user.React",
     "user.Java Script",
     "user.Docker",
-    "user.Python",
     "user.Figman"
   ],
 
-  footerDev: "Sou Desenvolvedor Full Stack com foco em Python, criando soluções de ponta a ponta e integrando frontends com APIs de qualidade. Trabalho com atenção à segurança e à qualidade em todas as etapas do desenvolvimento de software: desde o projeto, testes e entrega até a manutenção e o aprimoramento contínuo.Meu objetivo é estudar processos, redesenhá-los quando necessário e propor melhorias por meio de integrações digitais que gerem valor e resultados."
-
+footerDev: "Sou estudante de Engenharia de Software e desenvolvedor Full Stack com maior interesse em Front-End. Gosto de criar interfaces modernas, funcionais e bem estruturadas, sempre buscando melhorar a experiência do usuário. Estou constantemente aprendendo novas tecnologias e desenvolvendo projetos práticos para evoluir como desenvolvedor."
   
 };

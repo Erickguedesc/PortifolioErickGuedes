@@ -30,8 +30,8 @@ const Footer = () => {
     { 
       name: 'Instagram', 
       icon: <InstagramIcon className={styles.icon} />, 
-      url: '#', // Adicione seu link real aqui
-      handle: '@seuhandle'
+      url: 'https://www.instagram.com/erickguedesc/', // Adicione seu link real aqui
+      handle: '@erickguedesc'
     },
     { 
       name: 'Gmail', 
@@ -99,7 +99,7 @@ const Footer = () => {
       <div className={styles.bottomBar}>
         <hr className={styles.divider} />
         <p className={styles.copyright}>
-          © {currentYear} Luiz Fagundes. Todos os direitos reservados.
+          © {currentYear} Erick Guedes Carvalho - Todos os direitos reservados.
         </p>
       </div>
     </footer>

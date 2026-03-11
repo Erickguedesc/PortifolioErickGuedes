@@ -2,7 +2,7 @@
 import style from "./Sobre.module.css";
 import { useTranslation } from "react-i18next";
 import BackgroundCanvas from "../../components/BackgroundCanvas";
-import minhaFoto from "../../assets/minhaFoto.png";
+import minhaFoto from "../../assets/minhaFoto.jpg";
 import React, { useState, useEffect, useRef } from 'react';
 
 import SchoolIcon from "@mui/icons-material/School";
@@ -46,10 +46,10 @@ export default function Sobre() {
   const listaExperienciaAcademica = t("about.experienciaAcademica", { returnObjects: true }) || [];
 
   const progressMock = [
-    { name: t("about.academic.software"), value: 60, percentText: "60%" },
-    { name: t("about.academic.js"), value: 40, percentText: "40%" },
-    { name: t("about.academic.python"), value: 100, percentText: "100%" },
-  ];
+  { name: t("about.academic.software"), value: 60, percentText: "60%" },
+  { name: t("about.academic.cursoOnebitcode"), value: 40, percentText: "40%" },
+  { name: t("about.academic.cursoSujeitoProgramador"), value: 50, percentText: "50%" },
+];
 
   const [animateStat, setAnimateStat] = useState({
     projects: false,
@@ -129,8 +129,7 @@ export default function Sobre() {
           {/* PLAYER DO SPOTIFY (Mantido centralizado) */}
           <div className={style.SpotifyPlayerContainer}>
               <SpotifyPlayer
-                  linkMusica="https://open.spotify.com/embed/track/5TRPicyLGbAF2LGBFbHGvO?utm_source=generator"
-              />
+linkMusica="https://open.spotify.com/embed/track/3oMk1VNl1N7dgibHwHw1j2"              />
           </div>
         </div>
 

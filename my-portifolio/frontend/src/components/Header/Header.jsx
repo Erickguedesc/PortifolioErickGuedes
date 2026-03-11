@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import logoBrasil from "../../assets/brasil.png";
 import logoEua from "../../assets/eua.png";
-import logoLg from "../../assets/logoLgQuad.svg";
+import logoe from "../../assets/logoe.png";
 import stylesHeader from "./Header.module.css";
 import { useTranslation } from "react-i18next";
 
@@ -15,8 +15,9 @@ export default function Header() {
     <nav className={stylesHeader.header}>
       
       <div className={stylesHeader.logoDev}>
-        <img src={logoLg} alt="logo LG" width={28} />
-        <h5>LUIZ GUSTAVO F. TEIXEIRA</h5>
+        <img src={logoe} alt="logoe" width={100} />
+        
+        <h5>Erick Guedes de Carvalho</h5>
       </div>
 
       {/* BOTÃO HAMBURGUER */}
